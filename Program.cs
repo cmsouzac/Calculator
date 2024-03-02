@@ -29,6 +29,8 @@ namespace Calculator
  *          nao possui necessidade de pressionar enter.
  *  float.Parse() = Converte uma string em um valor float que foi armazenado
  *          na variavel "v1".
+ *          
+ *          teste
  *      
  * 
  * 
