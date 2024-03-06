@@ -30,7 +30,6 @@ namespace Calculator
  *  float.Parse() = Converte uma string em um valor float que foi armazenado
  *          na variavel "v1".
  *          
- *          teste
  *      
  * 
  * 
