@@ -8,17 +8,17 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            Console.Clear();
+            Console.Clear(); // Limpa a tela
 
-            Console.WriteLine("Primeiro valor: ");
-            float v1 = float.Parse(Console.ReadLine());
+            Console.WriteLine("Primeiro valor: "); // Escrevendo diretriz para usuario
+            float v1 = float.Parse(Console.ReadLine()); // Armazena valor
 
             Console.WriteLine("Segundo valor:");
             float v2 = float.Parse(Console.ReadLine());
 
-            Console.WriteLine("");
+            Console.WriteLine(""); // Pular uma linha
 
-            float resultado = v1 + v2;
+            float resultado = v1 + v2; // Resultado (V1/V2)
             Console.WriteLine("O resultado da soma é " + resultado);
             Console.WriteLine($"O resultado da soma é {resultado}"); //interpolação de string
             Console.WriteLine($"O resultado da soma é {v1+ v2}");// envolvendo variaveis
